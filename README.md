@@ -1,45 +1,33 @@
 # Hamit007.github.io
-<h1 align="center">Привет, я Ильдар 👋</h1>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ADD8,100:0e75b6&height=200&section=header&text=Hamit007&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35" alt="header banner" />
+</p>
 
-<h3 align="center">Backend-разработчик · Go · Москва</h3>
+<h3 align="center">Backend Developer · Go · PostgreSQL · Docker</h3>
 
 <p align="center">
-  <a href="https://github.com/Hamit007">
-    <img src="https://komarev.com/ghpvc/?username=Hamit007&label=Просмотры%20профиля&color=0e75b6&style=flat" alt="profile views" />
-  </a>
-  <a href="https://github.com/Hamit007?tab=followers">
-    <img src="https://img.shields.io/github/followers/Hamit007?label=Подписчики&style=flat&color=0e75b6" alt="followers" />
-  </a>
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 </p>
 
 ---
 
-### 🚀 Обо мне
+### 👨‍💻 About Me
 
-- 🔭 Сейчас работаю над **микросервисами на Go** (Gin, gRPC)
-- 🌱 Изучаю **Kubernetes** и распределённые системы
-- 💬 Спросите меня о **Go, PostgreSQL, Docker, REST API**
-- 📫 Как связаться: **+7 (904) 459-57-86**
-- ⚡ Люблю чистый код, горутины и оптимизацию запросов
+- 🔭 Currently building **Go microservices** (Gin / gRPC)
+- 🌱 Learning **Kubernetes** and distributed systems
+- 📫 Reach me: **+7 (904) 459-57-86**
+- 🐙 GitHub: [github.com/Hamit007](https://github.com/Hamit007)
 
 ---
 
-### 🛠️ Технологии и инструменты
+### 📊 GitHub Stats
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go"/>
-  <img src="https://img.shields.io/badge/Gin-008ECF?style=for-the-badge&logo=gin&logoColor=white" alt="Gin"/>
-  <img src="https://img.shields.io/badge/gRPC-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="gRPC"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Hamit007&show_icons=true&theme=tokyonight&hide_border=true&locale=ru" height="160" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hamit007&layout=compact&theme=tokyonight&hide_border=true&locale=ru" height="160" />
 </p>
-
----
-
 ### 📊 Статистика GitHub
 
 <p align="center">
