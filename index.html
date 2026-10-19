@@ -4,88 +4,160 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Резюме Разработчика</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Подключите ваш CSS файл -->
     <style>
+        * {
+            box-sizing: border-box;
+        }
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
             background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
         }
         header {
             text-align: center;
-            padding: 10px 0;
+            padding: 30px 10px;
             background-color: #333;
             color: white;
+            border-radius: 5px;
         }
         h1 {
-            margin: 0;
+            margin: 0 0 8px;
+        }
+        header p {
+            margin: 4px 0;
+            color: #ccc;
         }
         section {
             background: white;
             padding: 20px;
-            margin: 10px 0;
+            margin: 15px 0;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
         h2 {
-            color: #333;
+            margin-top: 0;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #333;
+            font-size: 1.3em;
         }
-        .contact-info {
-            margin-bottom: 20px;
+        ul {
+            padding-left: 20px;
         }
-        .skills, .experience, .education {
-            list-style-type: none;
-            padding: 0;
+        li {
+            margin-bottom: 6px;
         }
-        .skills li, .experience li, .education li {
-            margin-bottom: 10px;
+        .job {
+            margin-bottom: 16px;
+        }
+        .job h3 {
+            margin: 0;
+            font-size: 1.1em;
+        }
+        .job .period {
+            color: #777;
+            font-size: 0.9em;
+        }
+        .skills span {
+            display: inline-block;
+            background: #333;
+            color: white;
+            padding: 4px 10px;
+            margin: 3px;
+            border-radius: 12px;
+            font-size: 0.9em;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            color: #777;
+            font-size: 0.85em;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>Ильдар Хамитов</h1>
-    <p>Разработчик | Программист | Инженер</p>
-</header>
+    <header>
+        <h1>Иван Иванов</h1>
+        <p>Frontend-разработчик</p>
+        <p>Москва · ivan@example.com · +7 (999) 123-45-67</p>
+    </header>
 
-<section class="contact-info">
-    <h2>Контактная информация</h2>
-    <p>Email: khamitov-ildar@mail.ru</p>
-    <p>Телефон: +7 (904) 459-57-86</p>
-    <p>GitHub: <a href="https://github.com/Hamit007" target="_blank">github.com/ваш_пользователь</a></p>
-</section>
+    <section>
+        <h2>О себе</h2>
+        <p>
+            Разработчик с опытом создания адаптивных веб-интерфейсов.
+            Пишу чистый и поддерживаемый код, люблю разбираться в деталях
+            и доводить задачи до результата.
+        </p>
+    </section>
 
-<section class="skills">
-    <h2>Навыки</h2>
-    <ul>
-        <li>HTML, CSS, JavaScript</li>
-        <li>React, Angular, Vue.js</li>
-        <li>Node.js, Express, Docker</li>
-        <li>Python, Goland, Java</li>
-        <li>SQL, MongoDB</li>
-    </ul>
-</section>
+    <section>
+        <h2>Навыки</h2>
+        <div class="skills">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>React</span>
+            <span>Git</span>
+            <span>Адаптивная вёрстка</span>
+            <span>Figma</span>
+        </div>
+    </section>
 
-<section class="experience">
-    <h2>Опыт работы</h2>
-    <ul>
-        <li><strong>Компания A</strong> — Разработчик (2024 - настоящее время)</li>
-        <li><strong>Компания B</strong> — Младший разработчик (2022 - 2024)</li>
-    </ul>
-</section>
+    <section>
+        <h2>Опыт работы</h2>
 
-<section class="education">
-    <h2>Образование</h2>
-    <ul>
-        <li><strong>Университет A</strong> — Бакалавр в области информатики (2018 - 2022)</li>
-    </ul>
-</section>
+        <div class="job">
+            <h3>Frontend-разработчик — ООО «Веб-Студия»</h3>
+            <p class="period">2022 — настоящее время</p>
+            <ul>
+                <li>Разработка и поддержка пользовательских интерфейсов на React.</li>
+                <li>Вёрстка макетов по дизайну из Figma с точностью до пикселя.</li>
+                <li>Оптимизация загрузки страниц и повышение скорости рендеринга.</li>
+            </ul>
+        </div>
 
-<footer style="text-align:center; margin-top:20px;">
-    <p>&copy; 2023 Ваше Имя. Все права защищены.</p>
-</footer>
+        <div class="job">
+            <h3>Верстальщик — ИП «Петров»</h3>
+            <p class="period">2020 — 2022</p>
+            <ul>
+                <li>Кроссбраузерная адаптивная вёрстка лендингов.</li>
+                <li>Интеграция вёрстки в CMS.</li>
+                <li>Исправление багов и доработка существующих страниц.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Образование</h2>
+        <p>
+            <strong>МГТУ им. Н. Э. Баумана</strong><br>
+            Факультет информатики и систем управления, 2016–2020
+        </p>
+    </section>
+
+    <section>
+        <h2>Контакты</h2>
+        <ul>
+            <li>Email: <a href="mailto:ivan@example.com">ivan@example.com</a></li>
+            <li>GitHub: <a href="https://github.com/" target="_blank" rel="noopener">github.com/ivan</a></li>
+            <li>Telegram: <a href="https://t.me/" target="_blank" rel="noopener">@ivan_dev</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        © 2026 Иван Иванов
+    </footer>
 
 </body>
 </html>
