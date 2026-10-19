@@ -41,32 +41,16 @@
 
 ---
 
-### 📌 Избранные проекты
-
-<!-- Замените ссылки и описания на свои реальные репозитории -->
-<p align="center">
-  <a href="https://github.com/Hamit007?tab=repositories">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Hamit007&repo=YOUR_REPO_NAME&theme=tokyonight&hide_border=true&locale=ru" alt="Project 1"/>
-  </a>
-  <a href="https://github.com/Hamit007?tab=repositories">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Hamit007&repo=YOUR_REPO_NAME_2&theme=tokyonight&hide_border=true&locale=ru" alt="Project 2"/>
-  </a>
-</p>
-
-> 💡 Замените `YOUR_REPO_NAME` на реальные названия ваших репозиториев. Если их пока мало — просто уберите этот блок.
-
----
-
 ### 📫 Связаться со мной
 
 <p align="left">
   <a href="https://github.com/Hamit007" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
-  <a href="https://t.me/YOUR_TELEGRAM" target="_blank">
+  <a href="https://t.me/IldarHamitov" target="_blank">
     <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
   </a>
-  <a href="mailto:ildar@example.com">
+  <a href="mailto:khamitov-ildar@mail.ru">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </p>
