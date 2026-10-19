@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Резюме Разработчика</title>
+    <title>Резюме — Ильдар Хамитов</title>
     <style>
         * {
             box-sizing: border-box;
@@ -49,14 +49,14 @@
         li {
             margin-bottom: 6px;
         }
-        .job {
+        .job, .project {
             margin-bottom: 16px;
         }
-        .job h3 {
+        .job h3, .project h3 {
             margin: 0;
             font-size: 1.1em;
         }
-        .job .period {
+        .job .period, .project .stack {
             color: #777;
             font-size: 0.9em;
         }
@@ -87,30 +87,34 @@
 <body>
 
     <header>
-        <h1>Иван Иванов</h1>
-        <p>Frontend-разработчик</p>
-        <p>Москва · ivan@example.com · +7 (999) 123-45-67</p>
+        <h1>Ильдар Хамитов</h1>
+        <p>Backend-разработчик (Go)</p>
+        <p>Москва · +7 (904) 459-57-86 · <a href="https://github.com/Hamit007" target="_blank" rel="noopener" style="color:#ccc;">github.com/Hamit007</a></p>
     </header>
 
     <section>
         <h2>О себе</h2>
         <p>
-            Разработчик с опытом создания адаптивных веб-интерфейсов.
-            Пишу чистый и поддерживаемый код, люблю разбираться в деталях
-            и доводить задачи до результата.
+            Backend-разработчик с опытом проектирования и поддержки серверной
+            логики на Go. Пишу чистый и поддерживаемый код, продумываю
+            структуру баз данных и API, слежу за производительностью,
+            конкурентностью и безопасностью сервисов.
         </p>
     </section>
 
     <section>
         <h2>Навыки</h2>
         <div class="skills">
-            <span>HTML5</span>
-            <span>CSS3</span>
-            <span>JavaScript</span>
-            <span>React</span>
+            <span>Go</span>
+            <span>Gin</span>
+            <span>gRPC</span>
+            <span>PostgreSQL</span>
+            <span>Redis</span>
+            <span>Docker</span>
+            <span>Kubernetes</span>
+            <span>REST API</span>
             <span>Git</span>
-            <span>Адаптивная вёрстка</span>
-            <span>Figma</span>
+            <span>Linux</span>
         </div>
     </section>
 
@@ -118,24 +122,46 @@
         <h2>Опыт работы</h2>
 
         <div class="job">
-            <h3>Frontend-разработчик — ООО «Веб-Студия»</h3>
+            <h3>Backend-разработчик — ООО «Код-Сервис»</h3>
             <p class="period">2022 — настоящее время</p>
             <ul>
-                <li>Разработка и поддержка пользовательских интерфейсов на React.</li>
-                <li>Вёрстка макетов по дизайну из Figma с точностью до пикселя.</li>
-                <li>Оптимизация загрузки страниц и повышение скорости рендеринга.</li>
+                <li>Разработка и поддержка микросервисов на Go (Gin, gRPC).</li>
+                <li>Проектирование схем PostgreSQL и оптимизация запросов.</li>
+                <li>Кэширование через Redis и ускорение отдачи данных.</li>
+                <li>Контейнеризация в Docker, запуск сервисов в Kubernetes, CI/CD.</li>
             </ul>
         </div>
 
         <div class="job">
-            <h3>Верстальщик — ИП «Петров»</h3>
+            <h3>Junior Backend-разработчик — ИП «Петров»</h3>
             <p class="period">2020 — 2022</p>
             <ul>
-                <li>Кроссбраузерная адаптивная вёрстка лендингов.</li>
-                <li>Интеграция вёрстки в CMS.</li>
-                <li>Исправление багов и доработка существующих страниц.</li>
+                <li>Разработка внутренних сервисов и CLI-утилит на Go.</li>
+                <li>Написание тестов бизнес-логики и работа с горутинами.</li>
+                <li>Интеграция сторонних API и обработка ошибок.</li>
             </ul>
         </div>
+    </section>
+
+    <section>
+        <h2>Проекты</h2>
+
+        <div class="project">
+            <h3>
+                <a href="https://github.com/Hamit007" target="_blank" rel="noopener">github.com/Hamit007</a>
+            </h3>
+            <p class="stack">Go · PostgreSQL · Docker</p>
+            <ul>
+                <li>REST API сервис с авторизацией и хранением данных в PostgreSQL.</li>
+                <li>Набор Go-утилит и учебных проектов по конкурентности.</li>
+                <li>Готовые Docker-образы и инструкции по локальному запуску.</li>
+            </ul>
+        </div>
+
+        <p>
+            Полный список репозиториев доступен на
+            <a href="https://github.com/Hamit007" target="_blank" rel="noopener">GitHub-профиле</a>.
+        </p>
     </section>
 
     <section>
@@ -149,14 +175,14 @@
     <section>
         <h2>Контакты</h2>
         <ul>
-            <li>Email: <a href="mailto:ivan@example.com">ivan@example.com</a></li>
-            <li>GitHub: <a href="https://github.com/" target="_blank" rel="noopener">github.com/ivan</a></li>
-            <li>Telegram: <a href="https://t.me/" target="_blank" rel="noopener">@ivan_dev</a></li>
+            <li>Телефон: +7 (904) 459-57-86</li>
+            <li>GitHub: <a href="https://github.com/Hamit007" target="_blank" rel="noopener">github.com/Hamit007</a></li>
+            <li>Email: <a href="mailto:ildar@example.com">ildar@example.com</a></li>
         </ul>
     </section>
 
     <footer>
-        © 2026 Иван Иванов
+        © 2026 Ильдар Хамитов
     </footer>
 
 </body>
